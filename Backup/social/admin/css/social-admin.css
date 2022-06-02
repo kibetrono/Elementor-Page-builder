@@ -1,0 +1,180 @@
+/* Accesspress social shares - backend css */
+
+/* start of icon choice */
+#icon-choice{
+    display: none;
+    font-size:17px;
+    color:green;
+    border-radius: 20px;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  #icon-choice.show {
+    display: block;
+  }
+/* end of icon choice */
+
+/* start of share option */
+#share-option-choice{
+    display: none;
+    font-size:17px;
+    color:green;
+    border-radius: 20px;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  #share-option-choice.show {
+    display: block;
+  }
+/* end of share option */
+
+/* start of button size */
+#thank-you-message{
+    display: none;
+    font-size:17px;
+    color:green;
+    border-radius: 20px;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  #thank-you-message.show {
+    display: block;
+  }
+/* end of button size */
+
+/* start of button color */
+#color-message {
+    display: none;
+    font-size:17px;
+    color:green;
+    border-radius: 20px;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  #color-message.show {
+    display: block;
+  }
+/* end of button color */
+
+/* start of button appearence */
+#btn-order {
+    display: none;
+    font-size:17px;
+    color:green;
+    border-radius: 20px;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  #btn-order.show {
+    display: block;
+  }
+/* end of button appearence */
+
+/* start of button place */
+#btn-place {
+    display: none;
+    font-size:17px;
+    color:green;
+    border-radius: 20px;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  #btn-place.show {
+    display: block;
+  }
+/* end of button place */
+
+.swske_order_btn i{
+
+    border:1px solid black;
+    border-radius: 100px;
+    padding:5px
+}
+.swske-shares{
+    font-size:16px !important;border:1px solid #ddd;padding:10px;background:#ffffff;border-radius:10px
+}
+.swske-ol{
+    text-align:left
+}
+.swske-top-row{
+    background-color: #fff;
+ width:90%;
+    border-radius: 20px;
+}
+.swske-form-group{
+    border:1px solid #ddd !important;
+   padding:10px 0px;
+   
+}
+/* i{
+    border:2px solid #ddd !important;
+border-radius: 100px;
+    
+} */
+
+.swske-the_right{
+    margin: auto;
+    text-align: center;
+}
+
+.swske-inner-wrapper {
+    background-color: #fff;
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    border-top: 1px solid #fff;
+    /*box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);*/
+}
+
+.swske-flow-contents {
+    font-size: 15px;
+    margin: 0 0 20px 0;
+}
+
+
+.swske-main-section {
+    width: 100%;
+    background-color:#ddd;
+    padding: 20px 20px;
+    border-radius: 10px;
+    
+}
+
+.swske-top-header {
+    background-color: peru;
+    border-bottom: 3px solid #0074a2;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    margin: 0 0 30px;
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+}
+
+
+
+.inner-swske-flow-contents {
+    margin: 5px 20px;
+}
+
+.swske-form-icons{
+    text-align: center;
+}
+
+
+.swske-flow-contents iframe {
+    max-width: 100%;
+}
+
+@media screen and (max-width:783px){
+    .whatsapp-show{
+        display:none!important
+    }
+    }

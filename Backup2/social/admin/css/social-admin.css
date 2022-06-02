@@ -1,0 +1,14 @@
+
+#icon-choice{
+  display: none;
+  font-size:17px;
+  color:green;
+  border-radius: 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+     
+#icon-choice.show {
+  display: block;
+}

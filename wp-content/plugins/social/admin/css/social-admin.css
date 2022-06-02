@@ -1,0 +1,51 @@
+
+#icon-choice{
+  display: none;
+  font-size:17px;
+  color:green;
+  border-radius: 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+     
+#icon-choice.show {
+  display: block;
+}
+
+/* start of draggable */
+.left-icon {
+  background: none repeat scroll 0 0 #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  float: right;
+  padding:3px 0px 2px 5px ;
+  width: 24px;
+}
+
+
+.media-icon {
+  display: block;
+  float: left;
+  font-size: 20px;
+  height: 24px;
+  margin-right: 20px;
+  text-align: center;
+  width: 24px;
+}
+.contain {
+ width: 15%;
+}
+
+.box {
+  border: 1px solid #666;
+  background-color: #ffffff;
+  border-radius: .5em;
+  padding: 10px;
+  cursor: move;
+}
+
+.box.over {
+  border: 3px dotted #666;
+}
+/* end of draggable */
